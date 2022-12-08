@@ -6,7 +6,14 @@ namespace HW2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string s = Console.ReadLine();
+
+            char[] array = s.ToCharArray();
+
+            if (array.Length == 3)
+            {
+                Console.WriteLine(array[1]);
+            }
         }
     }
 }
